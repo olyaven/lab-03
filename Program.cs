@@ -161,3 +161,62 @@ int number = int.Parse(Console.ReadLine());
 bool isEven = number % 2 == 0;
 
 Console.WriteLine($"Чётное: {isEven}");
+
+
+//---
+
+Console.WriteLine();
+
+Console.WriteLine("Инкремент в выражениях");
+
+int x = 5;
+
+int firstResult = x++;
+Console.WriteLine($"x++: результат = {firstResult}, x = {x}");
+// Сначала используется старое значение x (5),
+// поэтому firstResult = 5. После этого x увеличивается до 6.
+
+x = 5;
+
+int secondResult = ++x;
+Console.WriteLine($"++x: результат = {secondResult}, x = {x}");
+// Сначала x увеличивается до 6,
+// поэтому secondResult = 6.
+
+x = 5;
+
+Console.WriteLine($"x++ + 10 = {x++ + 10}, после выражения x = {x}");
+// В выражении сначала используется старое значение x (5):
+// 5 + 10 = 15. После этого x увеличивается до 6.
+
+//---
+
+Console.WriteLine();
+
+Console.WriteLine("Проверка скидки");
+
+Console.Write("Введите сумму покупки: ");
+double purchaseAmount = double.Parse(Console.ReadLine());
+
+Console.Write("Есть карта постоянного клиента? (1 - да, 0 - нет): ");
+int cardInput = int.Parse(Console.ReadLine());
+
+bool hasLoyaltyCard = cardInput == 1;
+
+Console.Write("Введите количество товаров в чеке: ");
+int itemCount = int.Parse(Console.ReadLine());
+
+bool hasEnoughAmount = purchaseAmount >= 3000;
+
+bool hasEnoughItems = itemCount >= 3;
+
+bool eligibleForDiscount = (hasEnoughAmount && hasEnoughItems) || hasLoyaltyCard;
+
+Console.WriteLine();
+
+Console.WriteLine("Результат");
+
+Console.WriteLine($"Сумма >= 3000: {hasEnoughAmount}");
+Console.WriteLine($"Товаров >= 3: {hasEnoughItems}");
+Console.WriteLine($"Есть карта: {hasLoyaltyCard}");
+Console.WriteLine($"Имеет право на скидку: {eligibleForDiscount}");
