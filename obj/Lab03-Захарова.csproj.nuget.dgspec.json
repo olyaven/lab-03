@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\79033\\Lab03-Захарова\\Lab03-Захарова.csproj": {}
+    "C:\\Users\\79033\\Documents\\Lab03-Захарова\\Lab03-Захарова.csproj": {}
   },
   "projects": {
-    "C:\\Users\\79033\\Lab03-Захарова\\Lab03-Захарова.csproj": {
+    "C:\\Users\\79033\\Documents\\Lab03-Захарова\\Lab03-Захарова.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\79033\\Lab03-Захарова\\Lab03-Захарова.csproj",
+        "projectUniqueName": "C:\\Users\\79033\\Documents\\Lab03-Захарова\\Lab03-Захарова.csproj",
         "projectName": "Lab03-Захарова",
-        "projectPath": "C:\\Users\\79033\\Lab03-Захарова\\Lab03-Захарова.csproj",
+        "projectPath": "C:\\Users\\79033\\Documents\\Lab03-Захарова\\Lab03-Захарова.csproj",
         "packagesPath": "C:\\Users\\79033\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\79033\\Lab03-Захарова\\obj\\",
+        "outputPath": "C:\\Users\\79033\\Documents\\Lab03-Захарова\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\79033\\AppData\\Roaming\\NuGet\\NuGet.Config"
